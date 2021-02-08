@@ -43,7 +43,7 @@ app.get("/", (req, res) => {
   //     status: true,
   //     message: "Hello World ayaya",
   //   });
-  console.log("MASUK INDEX HTML");
+  console.log("MASUK INDEX EUY");
   res.sendFile("index.html", {
     root: __dirname,
   });
